@@ -2,7 +2,7 @@
 
 **CST2216 Individual Term Project — Modularizing and Deploying ML Code**
 
-A modular, production-style unsupervised machine learning project that segments mall customers using K-Means clustering, deployed as a Streamlit web application.
+A modular, production-style unsupervised machine learning project that segments mall customers using K-Means clustering, deployed as a Streamlit web application. https://clusteringan.streamlit.app/
 
 ---
 
@@ -115,11 +115,3 @@ No missing values.
 - Python ≥ 3.10
 - streamlit, pandas, numpy, scikit-learn, matplotlib, seaborn, pytest
 
----
-
-## Deployment (Streamlit Cloud)
-
-1. Push the repository to GitHub (include `data/mall_customers.csv`).
-2. Go to [share.streamlit.io](https://share.streamlit.io) → **New app**.
-3. Point to `app.py` as the entry point.
-4. Streamlit Cloud installs `requirements.txt` automatically.
